@@ -13,15 +13,10 @@ async function connectToDatabase() {
         return dbInstance
     };
 
-    const client = new MongoClient(url);      
+    const client = new MongoClient(url);
 
-    // Connect to MongoDB
     await client.connect();
-
-    // Connect to database giftDB and store in variable dbInstance
     dbInstance = client.db(dbName);
-
-    // Return database instance
     return dbInstance;
 }
 
