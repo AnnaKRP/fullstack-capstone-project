@@ -68,7 +68,7 @@ export default function Navbar() {
                                     <li className="nav-item">
                                         <span
                                             className="nav-link"
-                                            style={{ color: 'black', cursor: 'pointer' }}
+                                            style={{ color: '#E8DAB2', cursor: 'pointer' }}
                                             onClick={profileSection}
                                         >
                                             Welcome, {userName}

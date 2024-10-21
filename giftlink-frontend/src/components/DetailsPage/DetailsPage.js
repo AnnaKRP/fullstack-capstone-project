@@ -75,7 +75,7 @@ function DetailsPage() {
 
     return (
         <div className="container mt-5">
-            <button className="btn btn-secondary mb-3" onClick={handleBackClick}>
+            <button className="btn btn-light mb-3" onClick={handleBackClick}>
                 Back
             </button>
             <div className="card product-details-card">

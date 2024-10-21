@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Fugaz+One&display=swap');
+
 /* General styles */
 html {
     overflow-y: scroll;
@@ -10,7 +12,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #EAEAEA;
+    background-color: #4F6D7A;
     filter: blur(8px);
     z-index: -1;
 }
@@ -20,18 +22,19 @@ body::before {
 .btn-primary {
     background-color: #4F6D7A; 
     color: white; 
+    border: none;
 }
 
 /* Secondary color for hover states and highlights */
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #009688; 
+    background-color: #C0D6DF; 
 }
 
 /* General background color */
 body,
 .page-background {
-    background-color: #f4f4f4; 
+    background-color: #4F6D7A; 
     margin-right: calc(100vw - 100%);
 }
 
@@ -68,7 +71,7 @@ body,
 .product-card {
     margin: 1rem 0; 
     border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.792);
     overflow: hidden; 
 }
 
@@ -138,18 +141,18 @@ body,
 
 /* Customize the navbar brand and links */
 .navbar-brand, .nav-link {
-    font-size: 1.2rem; 
-    font-weight: 500; 
-    color: #DD6E42;
+    font-size: 1.6rem; 
+    font-weight: 600; 
+    color: #E8DAB2;
     margin-left: 10px;
+    font-family: "Fugaz One", sans-serif;
 }
 
 /* Increase the font size and weight of nav-item */
 .nav-item .nav-link {
     font-size: 1.1rem; 
     font-weight: bold; 
-    color: #0056b3; 
-    box-shadow: 2px 2px 6px grey;
+    color: #C0D6DF;
 }
 
 /* Change the background color of the navbar */
@@ -159,14 +162,15 @@ body,
     top: 0; 
     left: 0; 
     z-index: 1000; 
-    background-color: #f8f9fa; 
+    background-color: #4F6D7A !important; 
+    border-bottom: solid #C0D6DF 1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 /* Add a hover effect to nav links */
 .nav-item .nav-link:hover {
-    color: #004085;
     text-decoration: none; 
+    border-bottom: solid #C0D6DF 2px;
 }
 
 /* Highlight the active nav link */
@@ -182,7 +186,6 @@ body,
     background-color: #28a745; 
     color: white;
     padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
     transition: background-color 0.2s ease-in-out;
 }
 

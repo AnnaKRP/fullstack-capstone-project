@@ -11,8 +11,9 @@
 /* Style the search button */
 .search-button {
     width: 20%;
-    background-color: #007bff;
     color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
     border: none;
     padding: 0.5rem;
     border-radius: 0.25rem;
@@ -41,7 +42,7 @@
 
 /* Enhance search results cards appearance */
 .search-results-card {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.792) ;
     border-radius: 10px;
     overflow: hidden;
     transition: box-shadow 0.3s ease-in-out;
@@ -49,7 +50,7 @@
 }
 
 .search-results-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.792);
 }
 
 /* Style the “No products found” alert message */
@@ -64,7 +65,7 @@
 
 /* Apply hover effect to search results cards */
 .search-results-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.792);
 }
 
 /* Ensure images in search results are displayed appropriately */
@@ -101,10 +102,10 @@
 }
 
 .filter-section {
-    background-color: #f9f9f9;
+    background-color: #EAEAEA;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.792);
 }
 
 h5 {
@@ -116,7 +117,7 @@ h5 {
 
 label {
     font-weight: 600;
-    color: #555;
+    color: #4F6D7A;
 }
 
 button {

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { urlConfig } from '../../config';
+import './SearchPage.css';
 
 function SearchPage() {
 
@@ -114,7 +115,7 @@ function SearchPage() {
                     </div>
 
                     {/* Implement search button with onClick event to trigger search */}
-                    <button onClick={handleSearch} className="btn btn-primary mt-3">
+                    <button onClick={handleSearch} className="search-button btn btn-primary mt-3">
                         Search
                     </button>
 
