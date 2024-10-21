@@ -56,7 +56,8 @@ function SearchPage() {
     // Enable navigation to the details page of a selected gift.
     const navigate = useNavigate();
     const goToDetailsPage = (productId) => {
-        navigate(`/app/product/${productId}`);
+        // Corrected navigation path
+        navigate(`/app/details/${productId}`);
     };
 
     return (
@@ -155,3 +156,4 @@ function SearchPage() {
 }
 
 export default SearchPage;
+

@@ -1,6 +1,6 @@
 /* Style for image placeholder */
 .image-placeholder-large {
-    width: 100%;
+    width: 100%; 
     height: 400px; 
     position: relative; 
     background-color: #f0f0f0; 
@@ -16,11 +16,11 @@
 /* Style for 'no image available' placeholder */
 .no-image-available-large {
     display: flex; 
-    align-items: center;
+    align-items: center; 
     justify-content: center; 
-    background-color: #ccc; 
-    color: #333;
-    font-size: 18px;
+    background-color: #ccc;
+    color: #333; 
+    font-size: 18px; 
 }
 
 /* Style for card header */
@@ -46,13 +46,13 @@
 
 /* Style for individual comment card */
 .comments-section .card {
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
 }
 
 
 /* Style for comment author */
 .comments-section .comment-author {
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 

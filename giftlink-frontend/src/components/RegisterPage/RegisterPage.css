@@ -1,7 +1,7 @@
 .register-card {
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem; /* Rounded corners for the card */
+    border-radius: 0.5rem; 
 }
 
 .register-card .form-label {
@@ -10,7 +10,7 @@
 
 .register-card input {
     border-radius: 0.25rem;
-    border: 1px solid #ced4da; /* Default border color */
+    border: 1px solid #ced4da; 
 }
 
 .register-card .btn {
