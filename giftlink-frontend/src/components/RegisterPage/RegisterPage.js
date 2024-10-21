@@ -1,11 +1,10 @@
+/*jshint esversion: 8 */
 import React, { useState } from 'react';
-    //Step 1 - Task 1
-    import {urlConfig} from '../../config';
-    //Step 1 - Task 2
-    import { useAppContext } from '../../context/AuthContext';
-    //Step 1 - Task 3
-    import { useNavigate } from 'react-router-dom';
-    import './RegisterPage.css';
+import {urlConfig} from '../../config';
+import { useAppContext } from '../../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
+import './RegisterPage.css';
+
     function RegisterPage() {
         const [firstName, setFirstName] = useState('');
         const [lastName, setLastName] = useState('');
