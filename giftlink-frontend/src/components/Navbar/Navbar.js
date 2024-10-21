@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {urlConfig} from '../../config';
 import { useAppContext } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import './RegisterPage.css';
+import '../RegisterPage/RegisterPage.css';
 
 function RegisterPage() {
     const [firstName, setFirstName] = useState('');
