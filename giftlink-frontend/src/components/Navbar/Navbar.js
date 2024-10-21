@@ -1,19 +1,33 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function Navbar() {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="/">GiftLink</a>
-            <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                    <a className="nav-link" href="/home.html">Home</a> 
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/app">Gifts</a> 
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    );
+function Navbar() {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/">GiftApp</Link>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/app">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/app/gifts">Gifts</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/app/search">Search</Link> {/* Add SearchPage link */}
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/app/login">Login</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
+
+export default Navbar;
